@@ -1,9 +1,23 @@
 [project]
 name = "rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "A comprehensive Retrieval-Augmented Generation (RAG) system for intelligent document processing and querying"
 readme = "README.md"
 requires-python = ">=3.13"
+license = {text = "MIT"}
+authors = [
+    {name = "RAG Team", email = "your.email@example.com"}
+]
+keywords = ["rag", "retrieval-augmented-generation", "langchain", "ai", "nlp", "document-processing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
 dependencies = [
     "ipykernel>=7.2.0",
     "langchain>=1.2.12",
@@ -12,3 +26,21 @@ dependencies = [
     "pymupdf>=1.27.2",
     "pypdf>=6.8.0",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/rag"
+Repository = "https://github.com/yourusername/rag"
+Documentation = "https://github.com/yourusername/rag/blob/main/README.md"
+"Bug Tracker" = "https://github.com/yourusername/rag/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
