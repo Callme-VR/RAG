@@ -32,12 +32,14 @@
 ## 🌟 Features
 
 ### 🎯 Core Functionality
+
 - **📚 Multi-format Document Support**: Process PDF and text files seamlessly
 - **🔄 Intelligent Chunking**: Advanced text splitting for optimal retrieval
 - **🔍 Smart Retrieval**: Efficient document similarity search
 - **💬 Context-aware Responses**: Generate answers with relevant document context
 
 ### 🛠️ Technical Features
+
 - **🐍 Python 3.13+**: Modern Python with latest features
 - **⚡ LangChain Integration**: Leverage cutting-edge RAG framework
 - **📊 Jupyter Notebooks**: Interactive development and testing
@@ -55,7 +57,7 @@ graph TD
     D --> E[🔍 Retrieval]
     E --> F[🤖 LLM]
     F --> G[💬 Response]
-    
+
     style A fill:#e1f5fe
     style B fill:#f3e5f5
     style C fill:#e8f5e8
@@ -245,6 +247,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 ### 🎯 Real-world Use Cases
 
 #### 📚 Academic Research
+
 ```python
 # Process research papers
 rag.load_documents("./research_papers/")
@@ -252,6 +255,7 @@ answer = rag.query("What are the latest findings in machine learning?")
 ```
 
 #### 💼 Business Documents
+
 ```python
 # Process business reports
 rag.load_documents("./reports/")
@@ -259,6 +263,7 @@ answer = rag.query("What were the Q3 revenue figures?")
 ```
 
 #### 🏥 Healthcare
+
 ```python
 # Process medical documents
 rag.load_documents("./medical_records/")
@@ -330,6 +335,7 @@ Made with ❤️ and 🐍 Python
 ## 🎉 Updates & Changelog
 
 ### 📅 Version 0.1.0
+
 - ✨ Initial release
 - 📚 PDF and text document support
 - 🔍 Basic RAG functionality
@@ -337,4 +343,4 @@ Made with ❤️ and 🐍 Python
 
 ---
 
-*Last updated: March 2026*
+_Last updated: March 2026_

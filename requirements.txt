@@ -4,3 +4,8 @@ langchain-community
 pypdf
 pymupdf
 ipykernel
+transformers
+sentence-transformers
+
+faiss-cpu
+chromadb
