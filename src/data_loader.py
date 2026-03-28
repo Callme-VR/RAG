@@ -141,4 +141,4 @@ def Load_all_documents(data_path: str) -> List[Any]:
 if __name__ == "__main__":
      docs=Load_all_documents("data")
      print(f"Loaded {len(docs)} documents")
-     print("First document:",docs[0].page_content)
+     print("First document:",docs)
