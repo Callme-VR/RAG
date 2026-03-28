@@ -1,0 +1,12 @@
+ipykernel>=7.2.0
+langchain>=1.2.12
+langchain-community>=0.4.1
+langchain-core>=1.2.18
+pymupdf>=1.27.2
+pypdf>=6.8.0
+
+[dev]
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
